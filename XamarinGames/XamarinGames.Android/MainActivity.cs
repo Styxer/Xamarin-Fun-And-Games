@@ -20,6 +20,7 @@ namespace XamarinGames.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            Console.WriteLine("BLA");
             LoadApplication(new App());
         }
     }
